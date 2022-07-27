@@ -1,0 +1,150 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+/*Cabecera y barra de navegacion */
+#home{
+    text-align: center;
+    width: 100%;
+    height: 150px;
+    margin-bottom: 20px;
+    position: fixed;
+    background-color: white;
+}
+.bienvenida{
+    color: #0098d9;
+    margin-bottom: 15px;
+    margin-top: 15px;
+}
+nav ul li{
+    display: inline-block;
+    line-height: 80px;
+    margin: 0 5px;
+}
+a{
+    text-decoration: none;
+    color: black;
+    font-size: 20px;
+    padding: 7px 13px;
+}
+li a:hover{
+    background-color: #0098d9;
+    color: white;
+    padding: 10px;
+    border-radius: 15px;
+}
+
+/*Portada con imagen de fondo*/
+#portada{
+   width: 100%;
+   height: 85vh;
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   background-image: url(/img/tecnologia-og.jpg);
+   background-repeat: no-repeat;
+   background-size: cover;
+}
+.descripcion {
+    color: white;
+    text-align: center;
+    z-index: 1;
+}
+.descripcion h2{
+    font-size: 30px;
+}
+.descripcion p{
+    font-size: 25px;
+}
+
+/*Servicio*/
+#servicios{
+    width: 100%;
+    height: 50vh;
+    background-color: black;
+    color: white;
+}
+.cards{
+
+    display: flex;
+    gap: 100px;
+    justify-content: center;
+}
+.card-1{
+    width: 250px;
+    margin-top: 150px;
+   text-align: center;
+   border: 1px white solid;
+   padding: 20px;
+   border-radius: 18px;
+}
+.card-2{
+    width: 250px;
+    margin-top: 150px;
+   text-align: center;
+   border: 1px white solid;
+   padding: 20px;
+   border-radius: 18px;
+}
+.card-3{
+    width: 250px;
+    margin-top: 150px;
+    text-align: center;
+    padding: 20px;
+    border: 1px white solid;
+    border-radius: 18px;
+}
+
+.card-1:hover{
+    background-color: white;
+    color: black;
+    padding: 25px;
+}
+.card-2:hover{
+    background-color: white;
+    color: black;
+    padding: 25px;
+}
+.card-3:hover{
+    background-color: white;
+    color: black;
+    padding: 25px;
+}
+
+/*Seccion de contacto*/
+#contacto {
+    clear: both;
+    background-color: black;
+    color: white;
+   
+}
+#contacto form, h1{
+    margin-left: 50px;
+}
+#contacto form [type=text], #contacto form [type=email], textarea{
+    
+    display: block;
+    width: 50%;
+    padding: 10px;
+    border: 0;
+    background-color:white;
+    color: gray;
+}
+table{
+    border: 3px #ccc solid;
+    border-radius: 2px;
+}
+
+/*Footer*/
+footer{
+    width: 100%;
+    height: 20vh;
+    background-color: black;
+    color: white;
+}
+
+.footer-1{
+    text-align: center;
+    padding: 50px;
+}
